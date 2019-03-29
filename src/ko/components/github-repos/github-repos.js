@@ -30,9 +30,12 @@ export class GithubReposViewModel {
   dispose() {
     // This runs when the component is torn down. Put here any logic necessary to clean up,
     // for example cancelling setTimeouts or disposing Knockout subscriptions.
+    // 当组件被拆下时，它将运行。把需要清理的逻辑写在这里，
+    // 例如，取消setTimeouts或取消取消订阅。
   }
 }
 
 // The default export returns the component details object to register with KO
+// 默认导出返回要向KO注册的组件详细信息对象
 export default { viewModel: GithubReposViewModel, template: template };
 

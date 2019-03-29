@@ -1,6 +1,6 @@
-import '@babel/polyfill'; // Promise polyfill and others
-import 'unfetch/polyfill'; // Fetch polyfill
-import 'knockout-punches'; // Support for handlebars syntax
+import '@babel/polyfill'; // Promise polyfill and others  承诺polyfill和其他
+import 'unfetch/polyfill'; // Fetch polyfill  获取polyfill
+import 'knockout-punches'; // Support for handlebars syntax  支持车把语法
 import '../../assets/css/bootstrap.css'
 import '../../assets/css/app.css'
 import '../../assets/css/site.css'
@@ -18,7 +18,7 @@ class AppViewModel {
   }
 }
 
-ko.punches.enableAll(); // Enable support for handlebars syntax
+ko.punches.enableAll(); // Enable support for handlebars syntax   启用对句柄语法的支持
 ko.applyBindings(new AppViewModel(), document.getElementById('app'));
 
 

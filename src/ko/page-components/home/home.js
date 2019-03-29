@@ -5,6 +5,7 @@ import template from './home.html';
 import FileModel from "../../components/file-list/file-model";
 
 // This named export returns the view model and can be used to get the VM for unit tests
+// 这个命名的导出返回视图模型，可用于获取用于单元测试的VM
 export class HomeViewModel {
 
   constructor() {
